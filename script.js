@@ -111,10 +111,7 @@ function time() {
   if (tick >= 3000)
     res_timer_check = 50;
   if (tick >= 3600) {
-    lost_sfx.play();
-    RESULT_TYPE = "TIME'S UP"
-    GAME_START = false;
-    GAME_HOME = false
-    GAME_RESULT = true
+    startGame = false;
+    
   }
 }
