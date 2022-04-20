@@ -4,6 +4,7 @@ let value = '';
 let ran = '';
 let n = 13;
 var boo = true;
+let timer = 60;
 
 // define a variable for color
 let textColor = 'black';
